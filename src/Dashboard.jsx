@@ -1,10 +1,11 @@
-import './Dashboard.css';
+import "./Dashboard.css";
+import GithubUsers from "./githubUsers";
 
 const Dashboard = () => {
   return (
-    <div className="Dashboard">
+    <div class="Dashboard">
       Github users:
-      {/* TODO: list github users here */}
+      <GithubUsers maxUsers={10} />
     </div>
   );
 };
